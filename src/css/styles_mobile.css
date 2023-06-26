@@ -1,0 +1,111 @@
+body {
+color: #333333;
+font-family: Century Gothic, sans-serif;
+font-size: 0.625em;
+color: midnightblue;
+margin: 0 auto;
+width: 99%;
+}
+
+div#logo {
+	margin-top: 1%;
+	height: 60px;
+	width: 250px;
+	background: url("../images/revida-logo-small.png") no-repeat scroll 0 0 transparent;
+}
+
+div#content {
+	clear: both;
+	width: 99.8%;
+	border-width: 0px;
+	margin-right: 0.063em;
+	margin-bottom: 5em;
+	height: 35em;
+	margin: 0 auto;
+}
+
+#navigation {
+    float: left;
+    height: 6em;
+    margin: 0.938em 0 0 0;
+    width: 100%;
+	text-transform: uppercase;
+	color: white;
+	background-color: darkorchid;
+}
+.navigation-top {
+    list-style-type: none;
+}
+
+.navigation-top li {
+	float: left;
+    position: relative;
+    text-align: center;
+    z-index: 200;
+	width: 45%;
+	border-right-width: 0.063em;
+	border-right-color: white;
+	border-right-style: solid;
+	/*font-size: 0.45em;*/
+	height: 3em;
+	margin-left: 0.5%;
+}
+
+.navigation-top li#development {
+	margin-left: 2%;
+}
+
+.navigation-top li#coaching {
+	float: right;
+	margin-left: 0%;
+}
+.navigation-top li#consulting {
+	float: right;
+	margin-right: 9%;
+}
+
+
+.navigation-top li#coaching {
+	border-right-width: 0px;
+}
+
+.navigation-top li a {
+	display: block;
+	position: relative;
+	text-decoration: none;
+	color: white;
+}
+
+.navigation-top li a:hover {
+	color: blue;
+}
+
+div#aboutus-image {
+	width: 0%;
+	display: none;
+}
+
+div#aboutus-image img {
+	border-width: 0.063em;
+	border-color: gray;
+	border-style: solid;
+	border-radius: 0.250em;
+}
+
+div#aboutus-text {
+	height: 70%;
+	width: 90%;
+	float: left;
+	margin-top: 5%;
+	margin-right: 3%;
+	margin-left: 3%;
+}
+
+div#aboutus-text ul li {
+	list-style-type: square;
+	margin-bottom: 0.938em;
+}
+
+div#footer {
+	font-size: 0.625em;
+}
